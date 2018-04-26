@@ -1,13 +1,37 @@
-h1{
+html {
+  background-color: black;
+  text-align: center;
   font-family: Verdana;
+}
+
+h1{
   font-weight: normal;
   font-size: 50px;
   color: white;
-  text-align: center;
 }
 
 h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+h3 {
   color: aquamarine;
   font-size: 16px;
   text-decoration: underline;
+}
+
+p {
+  font-size: 21px;
+  color: gray;
+}
+
+.copyright {
+  text-align: right;
+  color: gray;
+}
+
+.coming_soon {
+  padding-top: 20px;
 }
